@@ -1,0 +1,10 @@
+
+
+
+/** @type {person []} */
+
+const people = [
+    {
+        
+    },
+]
