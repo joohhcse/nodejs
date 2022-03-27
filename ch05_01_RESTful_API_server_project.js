@@ -19,6 +19,30 @@
 
 const http = require('http')
 
+
+//JSDoc 형태
+/**
+ * @typedef post
+ * @property {string} id
+ * @property {string} title
+ * @property {string} content
+ */
+
+/** @type {Post[]} */
+const posts = [
+    {
+        id: 'my_first_post',
+        title: 'My first post',
+        const: 'Hello!',
+    },
+    {
+        id: 'my_second_post',
+        title: 'My second post',
+        content: 'Second post!',
+    },
+]
+
+
 /**
  * Post
  * 
